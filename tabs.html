@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>LBG</title>
+<link rel="stylesheet" href="tabs.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awosome/4.7.0/css/fontawosome.min.css">
+<link href="https://fonts.googleapis.com/css?family=poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="hero">
+ <div class="btn-box">
+  <button id="btn1" onclick="openHTML()" checked="checked"><i class="fa fa-html5"></i>HTML</button>
+  <button id="btn2" onclick="openCSS()" checked="checked"><i class="fa fa-css3"></i>CSS</button>
+  <button id="btn3" onclick="openJS()" checked="checked"><i class="fa fa-codepen"></i>JAVASCRIPT</button>
+ </div>
+ <div id="content1" class="content">
+  <div class="content-left">
+   <h1>Learn HTML</h1>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore at temporibus dolorum, aliquid voluptate rem ea sint id architecto rerum. Et quibusdam totam, dolorem explicabo commodi tempora a nemo?Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nobis velit, numquam officiis adipisci, molestiae eius dolorum placeat suscipit eligendi animi voluptas ullam perferendis? Consectetur nam repellat blanditiis molestias similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem possimus fugit sed voluptate accusamus error exercitationem veritatis? Dolorem molestiae rerum reiciendis aliquam numquam, tempore totam doloribus voluptas vel! Deleniti, sed?</p>
+   
+   <a href="https://www.youtube.com/watch?v=v6-4wh_o9iM">Watch a video</a>
+  </div>
+  <div class="content-right">
+  <img src="../Downloads/a ring.jpg">
+  </div>
+
+  
+ </div>
+ <div id="content2" class="content">
+  <div class="content-left">
+   <h1>Learn CSS</h1>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore at temporibus dolorum, aliquid voluptate rem ea sint id architecto rerum. Et quibusdam totam, dolorem explicabo commodi tempora a nemo?Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nobis velit, numquam officiis adipisci, molestiae eius dolorum placeat suscipit eligendi animi voluptas ullam perferendis? Consectetur nam repellat blanditiis molestias similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem possimus fugit sed voluptate accusamus error exercitationem veritatis? Dolorem molestiae rerum reiciendis aliquam numquam, tempore totam doloribus voluptas vel! Deleniti, sed?</p>
+   
+   <a href="https://www.youtube.com/watch?v=v6-4wh_o9iM">Watch a video</a>
+  </div>
+  <div class="content-right">
+  <img src="../Downloads/a ring.jpg">
+  </div>
+
+  
+ </div>
+
+ <div id="content3" class="content">
+  <div class="content-left">
+   <h1>Learn JAVASCRIPT</h1>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore at temporibus dolorum, aliquid voluptate rem ea sint id architecto rerum. Et quibusdam totam, dolorem explicabo commodi tempora a nemo?Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nobis velit, numquam officiis adipisci, molestiae eius dolorum placeat suscipit eligendi animi voluptas ullam perferendis? Consectetur nam repellat blanditiis molestias similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem possimus fugit sed voluptate accusamus error exercitationem veritatis? Dolorem molestiae rerum reiciendis aliquam numquam, tempore totam doloribus voluptas vel! Deleniti, sed?</p>
+   
+   <a href="https://www.youtube.com/watch?v=v6-4wh_o9iM">Watch a video</a>
+  </div>
+  <div class="content-right">
+  <img src="../Downloads/a ring.jpg">
+  </div>
+
+  
+ </div>
+
+</div>
+
+<script>
+var content1 = document.getElementById("content1");
+var content2 = document.getElementById("content2");
+var content3 = document.getElementById("content3");
+var  btn1 = document.getElementById("btn1");
+var  btn2 = document.getElementById("btn2");
+var  btn3 = document.getElementById("btn3");
+
+function openHTML (){
+ content1.style.transform = "translatex(0%)";
+ content2.style.transform = "translatex(100%)";
+ content3.style.transform = "translatex(100%)";
+ btn1.style.color= "#ff7846";
+ btn2.style.color= "#000";
+ btn3.style.color= "#000";
+}
+
+function openCSS (){
+ content1.style.transform = "translatex(100%)";
+ content2.style.transform = "translatex(0%)";
+ content3.style.transform = "translatex(100%)";
+ btn1.style.color= "#000";
+ btn2.style.color= "#ff7846";
+ btn3.style.color= "#000";
+}
+
+function openJS (){
+ content1.style.transform = "translatex(100%)";
+ content2.style.transform = "translatex(100%)";
+ content3.style.transform = "translatex(0%)";
+ btn1.style.color= "#000";
+ btn2.style.color= "#000";
+ btn3.style.color= "#ff7846";
+}
+
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

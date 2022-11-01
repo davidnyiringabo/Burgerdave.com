@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.hero{
+ width: 80%;
+height: 450px;
+position: relative;
+margin: 20px auto;
+overflow: hidden;
+}
+.btn-box{
+  display: flex;
+  border-bottom: 2px solid #ccc;
+
+}
+
+.btn-box button{
+ background: transparent;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 1px 1px;
+ margin-right: 50px;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+.content-right img{
+  width: 300px;
+  
+}
+
+h1{
+ padding: 50px;
+ font-size: 35px;
+ font-family: italic;
+ margin: 0;
+ 
+}
+
+.col:hoover .h1{
+ color: #ff7846;
+ 
+}
+
+body{
+ font-size: 15px;
+ font-family: sans-serif;
+ padding: 0;
+ overflow:auto;
+}
+
+.content{
+ display: flex;
+  justify-content: center;
+ align-items: center;
+ margin: 5% auto;
+ position: absolute;
+ transform: translatex(230%);
+ transition: 2s;
+ 
+
+}
+
+.content-left{
+  flex-basis: 50%;
+  text-align: right;
+
+}
+.content-left p{
+ font-size: 60px;
+ padding: 30px 0;
+ text-align: left;
+ font-family:'Times New Roman', Times, serif;
+}
+.content-left a{
+ width: 150px;
+display: block;
+padding: 8px 5px;
+border-radius: 20px;
+text-decoration: none;
+background-color: #ff7846;
+color: #fff;
+text-align: center;
+}
+.content-right{
+ flex-basis: 50%;
+ text-align: center;
+}
+
+#content1{
+ transform: translatex(0px);
+ display: flex;
+}
+#btn1{
+ color: #ff7846;
+}
+
+#btn2 a{
+  width: 30px;
+  display: block;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  background-color: none;
+  border: transparent;
+
+}
+.logo{
+ background: url(../Downloads/downloads/logo.png);
+ background-repeat: no-repeat;
+ background-size: 60px;
+ background-position: left;
+
+}
+
+
+
+.box1{
+  height: 200px;
+  width: 400px;
+  background-color: rgb(49, 45, 45, 87%);
+  margin-left: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin: 30px 30px;
+  /* padding-top: px; */
+  position: bottom;
+  background-position: bottom;
+  
+}
+
+.box2{
+  height: 200px;
+  width: 400px;
+  background-color: rgb(49, 45, 45, 87%);
+  margin-left: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin: 30px 30px;
+  ;
+ 
+  
+}
+
+.inner_box{
+  max-width: 400px;
+  position: relative;
+  display: block;
+top: 50%;
+left: 50%;
+right: 50%;
+transform: translate(-50%,-50%);
+background: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
